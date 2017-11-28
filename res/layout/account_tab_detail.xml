@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account_tab_detial"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colors_gray_french_more"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:text="基本信息"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:orientation="vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/actmytabdet_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:hint="职业"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/actmytabdet_tv1"
+                android:text="大四创业者"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:hint="学校"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_agd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/actmytabdet_tv2"
+                android:text="江西财经大学"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/line_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/actmytabdet_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:hint="城市"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/actmytabdet_tv3"
+                android:layout_weight="1"
+                android:text="江西 南昌"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:hint="家乡"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_hometown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/actmytabdet_tv4"
+                android:layout_weight="1"
+                android:text="江西 吉安"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/line_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/actmytabdet_tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:hint="情感状态"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_emotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/actmytabdet_tv5"
+                android:text="单身"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:hint="年龄"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/actmytabdet_tv6"
+                android:text="23"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/line_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="电话/微信"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/actmytabdet_phonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:text="13170919480"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/actmytabdet_phonebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_telephone" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:text="个人签名"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/color_white"
+        android:gravity="start"
+        android:padding="4dp"
+        android:text="路漫漫其修远兮，吾将上下而求索..."
+        android:textColor="@color/color_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:text="个性标签"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/color_white"
+        android:gravity="start"
+        android:padding="4dp"
+        android:text="创业者 程序猿 不甘平庸 自由主义 有态度 有原则"
+        android:textColor="@color/color_gray" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:text="兴趣爱好"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/color_white"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:text="创业 DIY Android IT 旅游 乒乓球 羽毛球 跑步 LOL"
+        android:textColor="@color/color_gray" />
+
+</LinearLayout>
+</ScrollView>

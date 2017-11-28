@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/register_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lightblue" >
+
+    <TextView
+        android:id="@+id/useregular_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="14dp"
+        android:text="填写资料"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/register_head"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registertwo_edit_layout"
+        android:layout_below="@+id/useregular_title"
+        android:layout_centerInParent="true"
+        android:layout_weight="2.5"
+        android:scaleType="fitCenter"
+        android:src="@drawable/register_headimg" />
+
+<LinearLayout
+    android:id="@+id/registertwo_edit_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/register_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextline"
+            android:ems="10"
+            android:hint="昵称"
+            android:text="Tony"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:textSize="16sp" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextline"
+            android:ems="10"
+            android:hint="姓名"
+            android:text="王川川"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/register_age"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextline"
+            android:ems="10"
+            android:hint="年龄"
+            android:inputType="date"
+            android:text="23"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/register_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextline"
+            android:ems="10"
+            android:hint="性别"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:hint="电话号码和姓名仅好友可见"
+        android:textColorHint="@color/color_white"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/registertwo_btn"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="20dp"
+    android:src="@drawable/icon_confirm_white" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/register_end_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:background="@drawable/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/register_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:text="添加好友"
+            android:textSize="14sp" />
+        
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/icon_confirm" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittextline_gray"
+        android:hint="验证信息"
+        android:inputType="text"
+        android:textSize="14sp" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="* 好友可查看双方手机号码，谨慎加友"
+        android:textColor="@color/color_gray_deep" />
+
+</LinearLayout>

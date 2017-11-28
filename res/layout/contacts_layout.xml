@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<RelativeLayout
+		android:id="@+id/account_title"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:background="@color/color_blue" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_btn_white" />
+
+        <TextView
+            android:id="@+id/AccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="通讯录"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/account_set"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/transparent" />
+
+    </RelativeLayout>
+<ImageButton
+        android:id="@+id/contacts_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/btn_plus"
+        android:visibility="visible" />
+</RelativeLayout>

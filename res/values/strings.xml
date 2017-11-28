@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微滴</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dream">因梦想而不甘平庸！</string>
+    <string name="Mission">丰富线下生活！</string>
+    <string name="motto">路漫漫其修远兮，吾将上下而求索...</string>
+    <string name="maxim">滴水穿石</string>
+    <string name="fight">以奋斗者为本</string>
+</resources>
